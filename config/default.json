@@ -1,0 +1,34 @@
+{
+  "app": {
+    "name": "Sale Tracker",
+    "version": "1.0.0",
+    "description": "An application that shows items on sale from a particular website"
+  },
+  "scraping": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "request_delay": 1000,
+    "max_retries": 3,
+    "timeout": 30000
+  },
+  "database": {
+    "type": "sqlite",
+    "filename": "sale_tracker.db"
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/app.log"
+  },
+  "targets": {
+    "websites": []
+  },
+  "user_preferences": {
+    "preferred_sizes": {
+      "tops": ["XL"],
+      "bottoms": ["all"],
+      "outerwear": ["XL"],
+      "footwear": ["all"],
+      "accessories": ["all"]
+    },
+    "size_filtering_enabled": true
+  }
+}
