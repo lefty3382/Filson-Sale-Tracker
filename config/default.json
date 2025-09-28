@@ -19,7 +19,68 @@
     "file": "logs/app.log"
   },
   "targets": {
-    "websites": []
+    "websites": [
+      {
+        "name": "Filson Outlet",
+        "url": "https://www.filson.com/collections/outlet",
+        "base_url": "https://www.filson.com",
+        "enabled": true,
+        "selectors": {
+          "item_container": ".card, .product-card, .grid__item, .card-wrapper, product-card, .collection-product-card",
+          "title": ".card__heading, .card__information h3, .product-title, .card-title, .product-card-title",
+          "price": ".price .money, .price__regular .money, .card__price .money, .price-item--regular, .price-current",
+          "original_price": ".price__sale .money, .compare-at-price .money, .was-price, .price-item--sale",
+          "discount": ".badge, .sale-badge, .price__badges, .card__badge",
+          "url": "a",
+          "image": "img"
+        }
+      },
+      {
+        "name": "Filson Women",
+        "url": "https://www.filson.com/collections/womens",
+        "base_url": "https://www.filson.com",
+        "enabled": true,
+        "selectors": {
+          "item_container": ".card, .product-card, .grid__item, .card-wrapper, product-card, .collection-product-card",
+          "title": ".card__heading, .card__information h3, .product-title, .card-title, .product-card-title",
+          "price": ".price .money, .price__regular .money, .card__price .money, .price-item--regular, .price-current",
+          "original_price": ".price__sale .money, .compare-at-price .money, .was-price, .price-item--sale",
+          "discount": ".badge, .sale-badge, .price__badges, .card__badge",
+          "url": "a",
+          "image": "img"
+        }
+      },
+      {
+        "name": "Filson Men",
+        "url": "https://www.filson.com/collections/mens",
+        "base_url": "https://www.filson.com",
+        "enabled": true,
+        "selectors": {
+          "item_container": ".card, .product-card, .grid__item, .card-wrapper, product-card, .collection-product-card",
+          "title": ".card__heading, .card__information h3, .product-title, .card-title, .product-card-title",
+          "price": ".price .money, .price__regular .money, .card__price .money, .price-item--regular, .price-current",
+          "original_price": ".price__sale .money, .compare-at-price .money, .was-price, .price-item--sale",
+          "discount": ".badge, .sale-badge, .price__badges, .card__badge",
+          "url": "a",
+          "image": "img"
+        }
+      },
+      {
+        "name": "Filson Outerwear",
+        "url": "https://www.filson.com/collections/outerwear",
+        "base_url": "https://www.filson.com",
+        "enabled": true,
+        "selectors": {
+          "item_container": ".card, .product-card, .grid__item, .card-wrapper, product-card, .collection-product-card",
+          "title": ".card__heading, .card__information h3, .product-title, .card-title, .product-card-title",
+          "price": ".price .money, .price__regular .money, .card__price .money, .price-item--regular, .price-current",
+          "original_price": ".price__sale .money, .compare-at-price .money, .was-price, .price-item--sale",
+          "discount": ".badge, .sale-badge, .price__badges, .card__badge",
+          "url": "a",
+          "image": "img"
+        }
+      }
+    ]
   },
   "user_preferences": {
     "preferred_sizes": {
